@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Add this property to wrap items */
+ /* Add this property to create space between the items */
+}
+
+.emoji {
+  flex: 1 0; /* Change flex property to adjust the width of the items */
+  margin:4px; /* Add margin to create space around the items */
+  box-sizing: border-box; /* Add this property to include padding and border within the item width */
+}
+
+
+.e:hover {
+    transform: scale(4);
+    z-index: 1;
+  }
